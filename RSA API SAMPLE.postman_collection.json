@@ -1,0 +1,34 @@
+{
+	"id": "1ebec4b3-99af-ae66-6cc1-24052c6bb3d5",
+	"name": "RSA API SAMPLE",
+	"description": "",
+	"order": [
+		"60be9396-8a16-acdc-05cc-884d8970fdb9"
+	],
+	"folders": [],
+	"timestamp": 1480910857070,
+	"owner": "1314109",
+	"public": false,
+	"requests": [
+		{
+			"id": "60be9396-8a16-acdc-05cc-884d8970fdb9",
+			"headers": "",
+			"url": "http://199.199.3.13:3000/api/country/",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1ebec4b3-99af-ae66-6cc1-24052c6bb3d5",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get country successfully",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1480913394418,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Verify [id] param\"] = responseBody.has(\"id\")",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
